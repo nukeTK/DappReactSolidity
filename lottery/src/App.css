@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  position:fixed;
+  background-image: linear-gradient(to left top, #cc5e9c, #c677b9, #be8ed0, #b7a3e1, #b4b7ec, #acc5f3, #a9d2f7, #adddf7, #abe6f3, #b2eded, #c0f3e4, #d3f8dd);
+  height: 100vh;
+  width:100vw;
+  overflow-y: auto;
+}
+
+.money {
+  font-size: 3cm;
+}
+
+.walletdescribe {
+  position: relative;
+  margin: auto;
+  top: 20vh;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.lottery {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2cm;
+}
+
+.connectwallet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.walletdescribe>.wallet {
+  display: block;
+  margin: auto;
+}
+
+.installmeta {
+  width: 20%;
+  margin: auto;
+  top: 20vh;
+  text-align: center;
+  font-weight: bolder;
+  font-size: smaller;
+}
+
+.meta {
+  font-size: small;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .walletdescribe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .walletdescribe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+
+  .walletdescribe {
+    width: 100%;
+  }
+}
+
+.card1{
+  display:block;
+  margin: auto;
+  grid-area: 1 / 2 / span 1 / span 1;
+  border:1px solid #b7a3e1;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 5px #abe6f3;
+  width: 70%;
+  padding: 10px;
+
+}
+.card2{
+  display:block;
+  grid-area: 2 / 2/ span 1 / span 2;
+  width: 70%;
+  margin: 0 auto;
+  border:1px solid #b7a3e1;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 5px #abe6f3;
+  overflow-y: auto;
+}
+.card3{
+  display:block;
+  grid-area: 4 / 1/ span 1 / span 1;
+  border:1px solid #b7a3e1;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px #abe6f3;
+  margin: auto;
+  padding: 10px;
+}
+
+.head{
+  display: block;
+  margin: auto;
+  color:grey;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 1px #b7a3e1;
+  text-align: center;
+  margin-top: 5vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    margin:50px auto;
+    gap:10px;
+    width: 80%;
+    padding: 10px;
+}
+.photo{
+  display: block;
+  grid-area: 2 / 1/ span 1 / span 1;
+
+}
+.photo > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  opacity: 80%;
+}
+
+.users{
+  display: flex;
+  margin: auto;
+  width: 70%;
+}
+.usericon{
+    color:chocolate;
+    font-size: large;
+    margin-right: 5px;
+}
+.card4{
+  display:block;
+  grid-area: 1 / 1/ span 1 / span 1;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 5px #b4b7ec;
+  margin: auto;
+  padding: 10px;
+}
+.card4>.winner{
+  margin-top:2mm;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+}
+
+.card5{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  grid-area: 4 / 2/ span 1 / span 2;
+}
+.card5>.b1{
+  padding:15px;
+  border-radius: 20px;
+}
+.card5>.b2{
+  margin-left: auto;
+  padding:15px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 800px) {
+
+  .card1{
+    margin: auto;
+    width: 100%;
+  
+  }
+  .card2{
+    margin: auto;
+    width: 100%;
+  }
+  .card3{
+    margin: auto;
+    width: 100%;
+  }
+  
+  .head{
+    margin: auto;
+    width: 100%;
+  }
+  
+  .grid{
+      display: block; 
+      width: 100%;
+    
+  }
+  .photo{
+    display: block;
+  
+  }
+  .photo > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    opacity: 80%;
+  }
+  
+  .users{
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+  .usericon{
+      color:chocolate;
+      font-size: large;
+      margin-right: 5px;
+  }
+  .card4{
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .card5{
+    width: 100%;
+
+  }
+}

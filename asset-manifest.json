@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/DappReactSolidity/lottery/static/css/main.dafedf62.css",
-    "main.js": "/DappReactSolidity/lottery/static/js/main.c49f26f3.js",
-    "static/media/lot1.png": "/DappReactSolidity/lottery/static/media/lot1.068e92621df0f587a999.png",
-    "index.html": "/DappReactSolidity/lottery/index.html",
-    "main.dafedf62.css.map": "/DappReactSolidity/lottery/static/css/main.dafedf62.css.map",
-    "main.c49f26f3.js.map": "/DappReactSolidity/lottery/static/js/main.c49f26f3.js.map"
+    "main.css": "/DappReactSolidity/static/css/main.dafedf62.css",
+    "main.js": "/DappReactSolidity/static/js/main.b49c6d1b.js",
+    "static/media/lot1.png": "/DappReactSolidity/static/media/lot1.068e92621df0f587a999.png",
+    "index.html": "/DappReactSolidity/index.html",
+    "main.dafedf62.css.map": "/DappReactSolidity/static/css/main.dafedf62.css.map",
+    "main.b49c6d1b.js.map": "/DappReactSolidity/static/js/main.b49c6d1b.js.map"
   },
   "entrypoints": [
     "static/css/main.dafedf62.css",
-    "static/js/main.c49f26f3.js"
+    "static/js/main.b49c6d1b.js"
   ]
 }
